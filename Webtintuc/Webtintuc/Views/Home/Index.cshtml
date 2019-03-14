@@ -1,0 +1,14 @@
+﻿@model Webtintuc.Models.HelloModel
+@{
+    ViewBag.Title = "Home Page";
+    Layout = null;
+}
+<div>
+    <p>@ViewBag.Hello</p>
+    <p>@ViewData["Xinchao"]</p>
+    <p>Ten:@Model.FirstName</p>
+    <p>Ho:@Model.LastNAme</p>
+    <a href="/Test">Hello</a>
+    @Html.ActionLink("Hello nua","Index","Test")
+
+    </div>
